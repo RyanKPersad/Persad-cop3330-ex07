@@ -1,8 +1,11 @@
+/*
+ *  UCF COP3330 Summer 2021 Assignment 1 Solution
+ *  Copyright 2021 Ryan Persad
+ */
 package org.example;
 import java.util.Scanner;
-/**
- *
- */
+
+
 public class App {
     public static final double m2 = 0.09290304;
 
@@ -23,8 +26,7 @@ public class App {
         int f2 = newLength * newWidth;
         double conversion = m2 * f2;
         String print1 = String.format("You entered dimensions of %s feet by %s feet.",length,width);
-        String print2 = String.format("The area is\n" + "%d square feet\n" + "%,.3f square meters\n",
-                f2,conversion);
+        String print2 = String.format("The area is\n" + "%d square feet\n" + "%,.3f square meters\n",f2,conversion);
         System.out.println(print1);
         System.out.println(print2);
 
